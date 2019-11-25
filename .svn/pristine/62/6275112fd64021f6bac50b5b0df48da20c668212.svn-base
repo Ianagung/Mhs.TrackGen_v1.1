@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Software>
+    <Name>Track Generator</Name>
+    <Parameter1 type="ReceiveDataFromCore">
+        <UdpPort>1115</UdpPort>
+        <UdpAddress>localhost</UdpAddress>
+    </Parameter1>
+    <Parameter2 type="ReceiveDataFromCcd">
+        <UdpPort>1112</UdpPort>
+        <UdpAddress>localhost</UdpAddress>
+    </Parameter2>
+    <Parameter3 type="SendDataToCore">
+        <UdpPort>1113</UdpPort>
+        <UdpAddress>192.168.88.141</UdpAddress>
+    </Parameter3>
+    <Parameter4 type="SendDataToCcd">
+        <UdpPort>1114</UdpPort>
+        <UdpAddress>localhost</UdpAddress>
+    </Parameter4>
+    <Parameter5 type="GpsConn">
+        <SerialPort>COM3</SerialPort>
+        <BaudRate>4800</BaudRate>
+    </Parameter5>
+    <Parameter6 type="SendGpsNmeaToCore">
+        <UdpPort>1116</UdpPort>
+        <UdpAddress>localhost</UdpAddress>
+    </Parameter6>
+    <Parameter7 type="GrupKapal">
+        <Wasit>Y</Wasit>
+        <Komandan>N</Komandan>
+        <Anggota>N</Anggota>
+        <ListGrupKapal0>1</ListGrupKapal0>
+        <ListGrupKapal1>2</ListGrupKapal1>
+        <ListGrupKapal2>3</ListGrupKapal2>
+        <ListGrupKapal3>4</ListGrupKapal3>
+        <ListGrupKapal4>5</ListGrupKapal4>
+        <ListGrupKapal5>6</ListGrupKapal5>
+        <ListGrupKapal6>7</ListGrupKapal6>
+        <ListGrupKapal7>8</ListGrupKapal7>
+        <ListGrupKapal8>9</ListGrupKapal8>
+        <ListGrupKapal9>10</ListGrupKapal9>
+    </Parameter7>
+    
+</Software>

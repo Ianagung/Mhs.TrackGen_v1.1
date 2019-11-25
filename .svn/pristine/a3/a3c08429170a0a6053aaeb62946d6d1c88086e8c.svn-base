@@ -1,0 +1,11 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Copyright PT Len Industri (Persero) 
+${licensePrefix}TO PT LEN INDUSTRI (PERSERO), AS APPLICABLE, AND SHALL NOT BE USED IN ANY WAY
+${licensePrefix}OTHER THAN BEFOREHAND AGREED ON BY PT LEN INDUSTRI (PERSERO), NOR BE REPRODUCED
+${licensePrefix}OR DISCLOSED TO THIRD PARTIES WITHOUT PRIOR WRITTEN AUTHORIZATION BY
+${licensePrefix}PT LEN INDUSTRI (PERSERO), AS APPLICABLE
+<#if licenseLast??>
+${licenseLast}
+</#if>

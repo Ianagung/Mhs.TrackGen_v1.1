@@ -1,0 +1,23 @@
+Update 25-08-2016
+Update: 
+	Class baru -> model_variable
+		+boolean mode_real (get set)
+		+ArrayList<byte[]> buffer_trak_tx (get set) pindah dari class Trak_Generator
+		+byte[][] buffer_trak_rx (get set) pindah dari class Trak_Generator
+	Trak_Generator
+		+buffer_trak_rx & buffer_trak_tx dipijndah ke Class model_variabel
+		+akses buffer_trak_tx & buffer_trak_tx didapat dari mod_var
+		+constructor baru dengan parameter mod_var
+	trak_form
+		+penambahan mode dummy & real (ComboBox), set mod_var.mode_real bergantung bergantung pada combobox tsb 
+		+penambahan var mod_var
+		+buffer_trak_tx & buffer_trak_tx didapat dari mod_var (sebelumnya dari trakgen)
+		+penambahan checkbox enable send 
+	thread_syc_array
+		+Constructor baru dengan parameter mod_var
+		+buffer_trak_tx & buffer_trak_tx didapat dari mod_var (sebelumnya dari trakgen)
+		+penambahan kondisi isMode_real() pada while di fungsi run()
+	thread_send_data
+		+Constructor baru dengan parameter trakgen, mod_var (sebelumnya dari trakgen)
+		+buffer_trak_tx didapat dari mod_var
+s
